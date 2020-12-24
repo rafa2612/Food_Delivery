@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/recyclersearchsinglerow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/searchallrestimg"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:requiresFadingEdge="horizontal"
+            android:fadingEdge="vertical"
+            android:src="@drawable/roopz"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/searchallrestname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/searchallrestrating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_action_rating"
+                android:drawablePadding="5dp"
+                android:text="4.6"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/searchallrestcostfor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rs 250/per person"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

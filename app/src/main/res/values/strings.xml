@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Food_Delivery</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Logout</string>
+    <string name="title_cart">Account</string>
+    <string name="title_search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mobile_no">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_no">Mobile No.</string>
+    <string name="cart"><u>CART</u></string>
+    <string name="your_current_location"><u>YOUR CURRENT LOCATION</u></string>
+    <string name="profile"><u>PROFILE</u></string>
+</resources>
